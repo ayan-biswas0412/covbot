@@ -9,7 +9,7 @@
   },
   "repository": "https://github.com/ayan-biswas0412/covbot",
   "author": "ayan-biswas0412",
-  "license": "MIT",
+  "license": "GNU v3.0",
   "dependencies": {
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
