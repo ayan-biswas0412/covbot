@@ -1,24 +1,21 @@
 const config = require('./config');
-const Discord = require("discord.js")
-const client = new Discord.Client()
+const path = require('path')
+const Commando = require('discord.js-commando')
 
-client.on("ready", () => {
-  console.log(`Logged in as ${client.user.tag}!`)
+const client = new Commando.CommandoClient({
+	owner: config.owner,
+	commandPrefix: config.prefix,
 })
 
-client.on('message', message => {
-    let prefix = config.prefix;
-	if (!message.content.startsWith(prefix) || message.author.bot) return;
+client.on('ready', async () => {
+	console.log('The client is ready!')
+  
+	client.registry
+	  .registerGroups([
+		['slot', 'slot availability commands'],
+	  ])
+	  .registerDefaults()
+	  .registerCommandsIn(path.join(__dirname, 'cmds'))
+})
 
-	const args = message.content.slice(prefix.length).trim().split(/ +/);
-	const command = args.shift().toLowerCase();
-
-	if (command === 'ping') {
-		message.channel.send('Pong.');
-	} else if (command === 'beep') {
-		message.channel.send('Boop.');
-	}
-	// ...
-});
-
-client.login(config.token)
+client.login(config.token) 

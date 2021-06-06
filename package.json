@@ -9,10 +9,13 @@
   },
   "repository": "https://github.com/ayan-biswas0412/covbot",
   "author": "ayan-biswas0412",
-  "license": "GNU v3.0",
+  "license": "GPL-3.0",
   "dependencies": {
+    "axios": "^0.21.1",
     "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.3",
     "dotenv": "^10.0.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
   }
 }
