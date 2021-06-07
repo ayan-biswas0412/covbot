@@ -99,5 +99,5 @@ module.exports = class SlotCommand extends Commando.Command {
         console.error('ERR:', err) 
         message.reply(err.response.data.error);
       })
-    }
+  }
 }
