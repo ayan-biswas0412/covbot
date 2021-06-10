@@ -12,7 +12,9 @@ client.on('ready', async () => {
   
 	client.registry
 	  .registerGroups([
-		['slot', 'slot availability commands'],
+		['slot', 'slot availability commands for CoWin'],
+		['news', 'covid news in india'],
+		['general','Get general links of the bot']
 	  ])
 	  .registerDefaults()
 	  .registerCommandsIn(path.join(__dirname, 'cmds'))
