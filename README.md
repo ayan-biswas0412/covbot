@@ -4,6 +4,8 @@
 
 The bot is created to share the information about COVID-19 in India, like recent news, vaccination slots etc via a bot type Interface. The bot can be invited to your Discord server, you can add it to any channel in the server or you can chat with the bot in direct messages.
 
+> The bot can not be used for automatic slot booking process in Cowin portal and any misuse of the API for slot booking automation is strictly prohibited accoridng to the guidelines by govt of India.
+
 ## 🚀 Invite the Bot
 
 [Click Here to invite the bot](https://discord.com/api/oauth2/authorize?client_id=851047707182891038&permissions=0&scope=bot) , The bot can be added to your server and also you can talk with the bot in direct messages, the bot does not posts any NSFW content.

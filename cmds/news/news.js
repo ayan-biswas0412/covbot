@@ -51,7 +51,7 @@ module.exports = class NewsCommand extends Commando.Command {
         
       })
       .catch((err) => {
-        console.error('ERR:', err) 
+        // console.error('ERR:', err) 
         message.reply(err.response.data.error);
       })
     }

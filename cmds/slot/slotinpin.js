@@ -34,7 +34,7 @@ module.exports = class SlotCommand extends Commando.Command {
 
     })
       .then((res) => {
-        console.log('RES:', res.data)
+        // console.log('RES:', res.data)
         let dataArray = res.data.sessions;
         let dataArraylength = dataArray.length;
         let zeroslot_centers = 0;
@@ -93,7 +93,7 @@ module.exports = class SlotCommand extends Commando.Command {
         }
       })
       .catch((err) => {
-        console.error('ERR:', err) 
+        // console.error('ERR:', err) 
         message.reply(err.response.data.error);
       })
     }
