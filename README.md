@@ -8,11 +8,11 @@ The bot is created to share the information about COVID-19 in India, like recent
 
 [Click Here to invite the bot](https://discord.com/api/oauth2/authorize?client_id=851047707182891038&permissions=0&scope=bot) , The bot can be added to your server and also you can talk with the bot in direct messages, the bot does not posts any NSFW content.
 
-## Available Commands
+## 💬 Available Commands
 
-All commands are prefixed by ```-``` like ```-command [arguments]``` but if you are in direct message or you have mentioned the bot in a channel by ```@CovBot```  then there is no requirement of the prefix ```-``` before the comamnds.
+All commands are prefixed by ```-``` like ```-command [arguments]``` but if you are in direct message or you have mentioned the bot in a channel by ```@CovBot#8808```  then there is no requirement of the prefix ```-``` before the comamnds.
 
-> You can get complete list of commands just enter the ```help``` command in direct message or ```@CovBot help``` in a channel
+> You can get complete list of commands by entering the ```help``` command in direct message or ```@CovBot#8808 help``` in a channel
 
 ## 🖥 Development guide
 
